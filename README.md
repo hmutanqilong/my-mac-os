@@ -19,6 +19,7 @@
   - [Video](#video)
   - [Utilities](#utilities)
   - [Browsers](#browsers)
+    - [Safari Extensions](#safari-extensions)
 - [Command Line Apps](#command-line-apps)
 - [Preference Panes](#preference-panes)
 - [My wonderful world of iOS](#my-wonderful-world-of-ios-)
@@ -38,7 +39,7 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 
 - Alfred is a powerful launcher that you can program to show anything you want. It saved me a lot of time in my life.
 
-  <img src="https://i.imgur.com/uzq1w5g.png" width="700" alt="img">
+<img src="https://i.imgur.com/5h1BMVO.png" width="700" alt="img">
 
 - It has a great [community](http://www.alfredforum.com/) and [amazing workflows](https://github.com/learn-anything/alfred-workflows#readme) that you can use.
 
@@ -50,28 +51,30 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 - I have completely remapped my keyboard with it and every key on my keyboard is a custom modifier key that I can program to do what I want.
 - For example you can make caps lock into an escape key when pressed once but if you hold it, it becomes a [hyper key](http://brettterpstra.com/2017/06/15/a-hyper-key-with-karabiner-elements-full-instructions/). Hyper key means that a key now serves two purposes, once when pressed alone and once when held down. So for example, for remapping caps lock, we can remap it to act as escape when pressed alone once but if we hold down on it, it becomes `⌘ + ⌃` modifier key. So `Caps Lock + F` becomes `⌘ + ⌃ + F`. And so on.
 - I take this idea further and define these kind of hyper keys for **every single key on my keyboard**.
-- I describe how I use Karabiner in detail [here](https://wiki.nikitavoloboev.xyz/macOS/apps/karabiner/karabiner.html) and I generate [my configuration](https://github.com/nikitavoloboev/dotfiles/blob/master/karabiner/karabiner.edn) with a [Karabiner DSL](https://github.com/yqrashawn/GokuRakuJoudo#readme).
+- I describe how I use Karabiner in detail [here](https://wiki.nikitavoloboev.xyz/macOS/apps/karabiner/karabiner) and I generate [my configuration](https://github.com/nikitavoloboev/dotfiles/blob/master/karabiner/karabiner.edn) with a [Karabiner DSL](https://github.com/yqrashawn/GokuRakuJoudo#readme).
 
 #### [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - Automation tool
 
 - Keyboard Maestro is essentially an IDE for automation. You create macros of actions that you can then easily call from Karabiner.
 - It has a [wonderful community](https://forum.keyboardmaestro.com/) that is happy to help with whatever you are trying to achieve.
-- I share [all the macros I use](https://wiki.nikitavoloboev.xyz/macOS/apps/keyboard-maestro/km-macros.html) with the app.
+- I share [all the macros I use](https://wiki.nikitavoloboev.xyz/macOS/apps/keyboard-maestro/km-macros) with the app.
 
 #### [2Do](http://www.2doapp.com/mac) - Flexible task manager
 
-- I love GTD methodology. This app is phenomenal with helping me [organize my tasks](https://wiki.nikitavoloboev.xyz/macOS/apps/2do.html). Here is how my sidebar looks:
+- I love GTD methodology. This app is phenomenal with helping me [organize my tasks](https://wiki.nikitavoloboev.xyz/macOS/apps/2do). Here is how my sidebar looks:
 
-  <img src="https://i.imgur.com/DUY4OyO.png" width="150">
+<img src="https://i.imgur.com/Rnxd5ti.png" width="150">
 
 - It also has global quick add with a hotkey. Together with lists, priorities, powerful search and a lot more.
-  <img src="https://i.imgur.com/b9lGFs0.png" width="400" alt="img">
+
+<img src="https://i.imgur.com/b9lGFs0.png" width="400" alt="img">
 
 #### [Trello](https://trello.com) - Project management tool
 
 - I use the app a lot to track various projects I have in my life.
-- I share many boards I made [publicly](https://wiki.nikitavoloboev.xyz/sharing/my-trello.html). Here is an example of a public board for tracking various [things I want to learn](https://trello.com/b/cu32qF3q).
-  ![](https://i.imgur.com/7sAVX9E.png)
+- I share many boards I made [publicly](https://wiki.nikitavoloboev.xyz/sharing/my-trello). Here is an example of a public board for tracking various [things I want to learn](https://trello.com/b/cu32qF3q).
+
+![](https://i.imgur.com/oDw8Gb0.jpg)
 
 - I assign myself to the cards I am working on now and filter to see only them by [pressing Q key](https://trello.com/shortcuts). I mark cards I want to work on next with `Next` tag.
 
@@ -85,13 +88,13 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 - I use Timing app to fully automate tracking my time on my computer.
 - The fact that I can combine active and passive tracking together is very powerful and allows me to be more aware of where I spend my time.
 
-![](https://i.imgur.com/CS5boja.png)
+![](https://i.imgur.com/KE7Fk35.png)
 
 #### [MindNode](https://mindnode.com) - Interactive Mind Mapping
 
 - An application which allowed me to originally create all of the maps for [Learn Anything](https://learn-anything.xyz).
 
-![](https://raw.githubusercontent.com/learn-anything/learn-anything/master/media/header.png)
+![](https://raw.githubusercontent.com/learn-anything/learn-anything/2017/media/header.png)
 
 - I also use MindNode to visualize topics and their relations as an [interactive mind map](https://my.mindnode.com/dPmKpWZgTpZsaG4Rf1yaz7rXbYhnuqPDDpdss4w2#1594.8,-1084.6,1).
 
@@ -126,15 +129,15 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 
 - Allows me to fuzzy search through all the currently active windows that I have.
 
-![](https://i.imgur.com/hwlVhMK.png)
+![](https://i.imgur.com/ZiRGtFc.png)
 
 - Makes jumping to the right window I need effortless. I often may have many VS Code instances with different projects running and this lets me switch to the project I need in seconds.
 
 #### [TaskPaper](https://www.taskpaper.com) - Plain text TODOs
 
-- Use the app to [dissect problems I am trying to solve into smaller and smaller parts I can work on](https://wiki.nikitavoloboev.xyz/research/solving-problems.html).
+- Use the app to [dissect problems I am trying to solve into smaller and smaller parts I can work on](https://wiki.nikitavoloboev.xyz/research/solving-problems).
 
-![](https://i.imgur.com/qng2Qw6.png)
+![](https://i.imgur.com/2pGHIOu.png)
 
 #### [Dictionary](<http://www.wikiwand.com/en/Dictionary_(software)>)
 
@@ -147,17 +150,17 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 
 - Allows you to customize and hide the contents of your menu bar and improve the aesthetics of your OS. Here is how mine looks:
 
-  <img src="https://i.imgur.com/hOzJiDK.png" width="500" alt="img">
+<img src="https://i.imgur.com/ER32snR.png" width="500" alt="img">
 
 - My menu bar is always hidden so I rarely ever use it and I show most needed info on the [TouchBar](btt#readme) instead.
 
 #### [Focus](https://heyfocus.com) - Block distracting websites
 
-- I use [Focus app](https://heyfocus.com) as a recurring [pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique) which lets me work in sessions of 80 minutes with 10 min breaks by blocking distracting websites and apps.
+- I use [Focus app](https://heyfocus.com) as a recurring [pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique) which lets me work in sessions of 80 minutes with 10 min breaks by blocking [distracting websites](https://gist.github.com/nikitavoloboev/57340528a6dfb3eb498dce647ed6841f) and apps.
 
-<img src="https://i.imgur.com/B9Tsaxf.png" width="500" alt="img">
+<img src="https://i.imgur.com/H7TMqgS.png" width="500" alt="img">
 
-<img src="https://i.imgur.com/r6ff6Cr.png" width="500" alt="img">
+<img src="https://i.imgur.com/MZGyqQe.png" width="500" alt="img">
 
 - If I go to any of my blocked websites during my `Focus` time, I am greeted with this message.
 
@@ -170,13 +173,14 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 #### [Popclip](https://pilotmoon.com/popclip/) - iOS like mouse text selection popover
 
 - Another great utility I cannot live without, brings up a quick menu whenever some text is selected on which I can do a number of quick actions, like searching on Google, DuckDuckGo, YouTube, Dictionary, Reddit, Google Images or it can translate text selected, copy it or even make a SnippetsLab snippet from it. Here is how it looks for me:
-  <img src="https://i.imgur.com/a0SBU19.png" width="400" alt="img">
+
+<img src="https://i.imgur.com/R6ksJi3.png" width="400" alt="img">
 
 - I share all the extensions I use with it [here](popclip#readme.md).
 
 #### [Noizio](http://noiz.io/) - Ambient sounds
 
-- I never listen to music when I want to focus on something as it is distracting. Instead I listen to sounds of rain, train or fire.
+- I sometimes like listening to sounds of rain, train or fire to focus. Although Nils Frahm [is better](https://open.spotify.com/track/2OroSHoRb4Sev1Jw82GN07).
 
 #### [Hammerspoon](http://www.hammerspoon.org) - Automation tool
 
@@ -185,7 +189,7 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 #### [Reeder](http://reederapp.com/mac/) - RSS Reeder
 
 - The app I use to keep up with my RSS feeds. I use RSS to follow my favorite blogs, stay up to date on new podcast episodes and even track some software releases.
-- I use [Inoreader](https://www.inoreader.com) to sync [blogs I follow](https://wiki.nikitavoloboev.xyz/research/blogs.html) between phone and mac.
+- I use [Inoreader](https://www.inoreader.com) to sync [blogs I follow](https://wiki.nikitavoloboev.xyz/research/blogs) between phone and mac.
 - Here is how Reeder looks like for me:
 
 ![](https://i.imgur.com/UBVuAIC.png)
@@ -193,13 +197,14 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 #### [Dropzone](https://aptonic.com) - Drag and drop actions
 
 - A quick utility that pops up when I drag some file into it or open it with a hotkey, use it to upload images to [Imgur](http://imgur.com), dropping files into a preset number of folders that I made quickly as well as going to them in an instant.
-  <img src="https://i.imgur.com/5InxMrE.png" width="300" alt="img">
+
+<img src="https://i.imgur.com/5InxMrE.png" width="300" alt="img">
 
 #### [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - Control incoming/outgoing network traffic
 
 - Amazing networking tool that gives you a clear picture of what connections are incoming to your computer and what are outgoing.
 - Takes a bit of time to set it up correctly and is quite an insightful experience first turning it on and having it notify every couple of seconds that some app is trying to send data to some server and whether you want to allow that.
-- This is essential if you want to take control of what information gets sent out from your computer and what connections have right to connect to your data.
+- This is essential if you want to take control of what information gets sent out from your computer and what connections have the right to connect to your data.
 
 #### [BeardedSpice](https://github.com/beardedspice/beardedspice) - Extend Mac Media Keys
 
@@ -213,7 +218,8 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 
 - I sometimes use this app to quickly send files from my local file system to the cloud and get a shareable link I can send to people.
 - I use [this Alfred workflow](https://github.com/bigluck/alfred2-transmit) to quickly open the cloud storage I need.
-  <img src="http://i.imgur.com/RkkcdvA.png" width="400" alt="img">
+
+<img src="https://i.imgur.com/TfCsokt.png" width="400" alt="img">
 
 #### [Paprika Recipe Manager](https://itunes.apple.com/us/app/paprika-recipe-manager-3/id1303222628?ls=1&mt=12)
 
@@ -223,54 +229,54 @@ I also share [my dotfiles](https://github.com/nikitavoloboev/dotfiles#readme) to
 
 #### [VS Code](https://github.com/Microsoft/vscode) - Code editor
 
-- My favorite editor that I use to write code in. I use [many extensions](https://wiki.nikitavoloboev.xyz/text-editors/vs-code/vs-code-extensions.html) for it.
+- My favorite editor that I use to write code in. I use [many extensions](https://wiki.nikitavoloboev.xyz/text-editors/vs-code/vs-code-extensions) for it.
 - My config for it can be found [here](https://github.com/nikitavoloboev/dotfiles/blob/master/vscode/settings.json).
-- I use [VS Code Night Blue](https://github.com/nikitavoloboev/vscode-night-blue#readme) theme with [Fira Code](https://github.com/tonsky/FiraCode) font. Here is how it looks:
+- I use [VS Code Monokai Night](https://github.com/fabiospampinato/vscode-monokai-night#readme) theme with [Fira Code](https://github.com/tonsky/FiraCode) font. Here is how it looks:
 
-![](https://i.imgur.com/ex47xh9.png)
+![](https://i.imgur.com/hOgSQ7F.png)
 
 #### [iTerm](https://www.iterm2.com/) - Terminal Emulator
 
-- Use Zsh as my shell together with [Antibody](https://github.com/getantibody/antibody) to install [Zsh plugins I use](https://wiki.nikitavoloboev.xyz/unix/shell/zsh/zsh-plugins.html).
-- Assigned w + j with [Karabiner](https://wiki.nikitavoloboev.xyz/macOS/apps/karabiner/karabiner.html) to open the app from Keyboard Maestro in seconds.
-- I made my own [Night Blue theme](iterm#readme) for it.
+- Use Zsh as my shell together with [Antibody](https://github.com/getantibody/antibody) to install [Zsh plugins I use](https://wiki.nikitavoloboev.xyz/unix/shell/zsh/zsh-plugins).
+- Assigned w + j with [Karabiner](https://wiki.nikitavoloboev.xyz/macOS/apps/karabiner/karabiner) to open the app from Keyboard Maestro in seconds.
+- I made my own [Monokai Night theme](iterm#readme) for it.
 
-<img src="https://i.imgur.com/Emw7NAj.png" width="500" alt="img">
+<img src="https://i.imgur.com/UujRUMV.png" width="500" alt="img">
 
 - I also love using [this workflow](https://github.com/isometry/alfred-tty) to quickly switch between active tty sessions.
 
-<img src="https://i.imgur.com/Yz1PVpi.png" width="500" alt="img">
+<img src="https://i.imgur.com/kdo0x8Y.png" width="500" alt="img">
 
-- I go over how I use the app [here](https://wiki.nikitavoloboev.xyz/macOS/apps/iterm.html).
+- I go over how I use the app [here](https://wiki.nikitavoloboev.xyz/macOS/apps/iterm).
 
 #### [Sublime Text](https://www.sublimetext.com) - Text Editor
 
 - Use this editor in addition to VS Code and Neovim for its blazing fast speed of opening files.
-- I use it primarily to edit markdown files like [my wiki](https://wiki.nikitavoloboev.xyz/other/wiki-workflow.html). I also edit config files and open large and small files for quick edits.
-- I use [many plugins](https://wiki.nikitavoloboev.xyz/text-editors/sublime-text/sublime-text-plugins.html) together with [Ayu theme](https://github.com/dempfi/ayu).
+- I use it primarily to edit markdown files like [my wiki](https://wiki.nikitavoloboev.xyz/other/wiki-workflow). I also edit config files and open large and small files for quick edits.
+- I use [many plugins](https://wiki.nikitavoloboev.xyz/text-editors/sublime-text/sublime-text-plugins) together with [Ayu theme](https://github.com/dempfi/ayu).
 
 #### [Dash](https://kapeli.com/dash) - API Documentation Browser
 
 - Allows you to download any docset that you might want to use, search for any method, class or anything that you need very quickly, comes with the amazing [Alfred workflow](https://www.alfredapp.com/blog/productivity/dash-quicker-api-documentation-search/) to simplify the process of searching for the right things.
 
-<img src="https://i.imgur.com/dOB64hB.png" width="500" alt="img">
+<img src="https://i.imgur.com/dItnB52.png" width="500" alt="img">
 
 - I also use [this workflow](https://github.com/nikitavoloboev/small-workflows/tree/master/dash-profile-switch#readme) I made to quickly switch between Dash profiles.
 
-<img src="https://i.imgur.com/CeoPgS6.png" width="500" alt="img">
+<img src="https://i.imgur.com/gCz4s9z.png" width="500" alt="img">
 
 #### [SnippetsLab](https://www.renfei.org/snippets-lab/) - Snippet manager
 
 - I use the app to manage my own personal library of snippets. I prefix all snippets I make. For example vim snippets are prefixed with `vim:`. Git related snippets with `git:` and so on.
-- This lets me then use the [Alfred workflow](https://www.renfei.org/snippets-lab/press-release/whats-new/osx-1.6.html) that the app's author provides to search for these snippets insanely fast.
+- This lets me then use the [Alfred workflow](https://www.renfei.org/snippets-lab/press-release/whats-new/osx-1.6) that the app's author provides to search for these snippets insanely fast.
 
-![](https://i.imgur.com/HKZtsHy.png)
+![](https://i.imgur.com/QCrbftT.png)
 
 Here is how my library looks:
 
-![](https://i.imgur.com/oeK1Un4.png)
+![](https://i.imgur.com/F7j1MSk.png)
 
-- I share my entire library of snippets as [GitHub Gists](https://wiki.nikitavoloboev.xyz/sharing/my-gists.html).
+- I share my entire library of snippets as [GitHub Gists](https://wiki.nikitavoloboev.xyz/sharing/my-gists).
 
 #### [Tower](https://www.git-tower.com) - Git client
 
@@ -284,10 +290,10 @@ Here is how my library looks:
 #### [Neovim](https://neovim.io) - Text Editor
 
 - The best text editing experience you will ever get. It is worth learning it as you will start thinking about text editing differently.
-- I use some kind of vim bindings in any app I use and if there is a vim plugin for the app, I often use it. I use [vim editor](https://wiki.nikitavoloboev.xyz/text-editors/vim/vim.html) often when connecting to remote sessions and when I need a console editor.
-- My [Neovim](https://github.com/neovim/neovim) config can be seen [here](https://github.com/nikitavoloboev/dotfiles/blob/master/nvim/init.vim). I use [Night Blue theme](https://github.com/nikitavoloboev/vim-night-blue#readme) with [many plugins](https://wiki.nikitavoloboev.xyz/text-editors/vim/vim-plugins.html). Here is how it looks:
+- I use some kind of vim bindings in any app I use and if there is a vim plugin for the app, I often use it. I use [vim editor](https://wiki.nikitavoloboev.xyz/text-editors/vim/vim) often when connecting to remote sessions and when I need a console editor.
+- My [Neovim](https://github.com/neovim/neovim) config can be seen [here](https://github.com/nikitavoloboev/dotfiles/blob/master/nvim/init.vim). I use [Monokai Night theme](https://github.com/nikitavoloboev/vim-monokai-night#readme) with [many plugins](https://wiki.nikitavoloboev.xyz/text-editors/vim/vim-plugins). Here is how it looks:
 
-![](https://i.imgur.com/DR2E94n.png)
+![](https://i.imgur.com/sLXBvv7.png)
 
 #### [Bee](https://www.neat.io/bee/) - GitHub Issue Tracker
 
@@ -298,12 +304,13 @@ Here is how my library looks:
 #### [Textual](https://www.codeux.com/textual/) - IRC Client
 
 - I love IRC and this is the best macOS client for it.
-- I created my own [Night Blue theme](textual#readme) for it that I love.
+- I created my own [Monokai Night theme](textual#readme) for it that I love.
 
-![](https://i.imgur.com/YgNVUMH.png)
+![](https://i.imgur.com/Lpozk8X.png)
 
 - The app also has an awesome channel search feature that I use a lot.
-  <img src="https://i.imgur.com/CMBW8Qf.png" width="500" alt="img">
+
+<img src="https://i.imgur.com/CMBW8Qf.png" width="500" alt="img">
 
 #### [Telegram](https://desktop.telegram.org/) - Messenger
 
@@ -317,11 +324,15 @@ Here is how my library looks:
 #### [Tweetbot](http://tapbots.com/tweetbot/mac/) - Twitter client
 
 - I use the app to stay up to date and communicate on Twitter.
-- Tweetbot is also blocked for me during my [Focus time](https://wiki.nikitavoloboev.xyz/focusing/focusing.html). I can only post tweets but I can't visit the app to see my feeds.
+- Tweetbot is also blocked for me during my [Focus time](https://wiki.nikitavoloboev.xyz/focusing/focusing). I can only post tweets but I can't visit the app to see my feeds.
 - Twitter is my primary way to stay up to date on things and is my favorite social network after GitHub. I curate and publicly share all [Twitter lists](https://twitter.com/nikitavoloboev/lists) I personally use.
-- I have Tweetbot open in full screen with four columns (Mentions/[Top](https://twitter.com/nikitavoloboev/lists/top)/[ML](https://twitter.com/nikitavoloboev/lists/ml)/[Other](https://twitter.com/nikitavoloboev/lists/other1)). Here is how that looks for me:
+- I have Tweetbot open in full screen with three columns (Mentions/[Top](https://twitter.com/nikitavoloboev/lists/top)/[Software](https://twitter.com/nikitavoloboev/lists/softeare)). Here is how that looks for me:
 
-![](https://i.imgur.com/n60bl8w.jpg)
+![](https://i.imgur.com/OO7hz6i.png)
+
+#### [Sblack](https://www.sblack.online/) - Slack client (native)
+
+- Use it to replace the official bloated mess that Slack app is. Love its dark mode feature, fast startup time and lower RAM usage.
 
 ### Writing
 
@@ -329,7 +340,7 @@ Here is how my library looks:
 
 - Day One is my digital life journal.
 - My entire life's experiences lives encrypted in the journal. Adding photographs I made, the thoughts I had and events that happened to me.
-- I document and review [my life](https://wiki.nikitavoloboev.xyz/looking-back/looking-back.html) publicly too.
+- I document and review [my life](https://wiki.nikitavoloboev.xyz/looking-back/looking-back) publicly too.
 - The app has integration with [IFTTT](https://ifttt.com/day_one) which I use to automatically log all [my tweets](https://twitter.com/nikitavoloboev) and [Instagram posts](https://instagram.com/nikitavoloboev).
 - If you don't journal, I suggest you to start, it is a very powerful mind cleanser and acts as a wonderful history record of your life.
 
@@ -337,14 +348,15 @@ Here is how my library looks:
 
 - The app I use to write all my [Medium](https://medium.com/@nikitavoloboev) articles in.
 - All your writing in one place is the motto and the underlying design of the app. I hook up my [wiki](https://github.com/nikitavoloboev/knowledge) as an external folder and I love how it creates an index of everything that I can search over:
-  <img src="http://i.imgur.com/Aa17RCQ.png" width="500" alt="img">
+
+<img src="http://i.imgur.com/Aa17RCQ.png" width="500" alt="img">
 
 - It also has pretty awesome export functions that let you export the text you write to PDF, ePub and HTML. I mostly use it's ability to export text to Medium.
-- I use [Night Blue](https://styles.ulyssesapp.com/bundle/Night+Blue/5b8573cd4f286f5c23d613d5) theme when I write. Here is how it looks:
+- I use [Monokai Night](https://styles.ulyssesapp.com/bundle/Monokai+Night/5bbcb619b3dafa6b4e6d6bd4) theme when I write. Here is how it looks:
 
-![](https://i.imgur.com/fs7OwNj.png)
+![](https://i.imgur.com/5yfxluP.png)
 
-- I describe my thoughts and approach to writing [here](https://wiki.nikitavoloboev.xyz/writing/writing.html).
+- I describe my thoughts and approach to writing [here](https://wiki.nikitavoloboev.xyz/writing/writing).
 
 #### [Marked](http://marked2app.com) - Preview rendered markdown files
 
@@ -360,7 +372,7 @@ Here is how my library looks:
 
 - A great color picker I use to collect my favorite colors and color schemes.
 
-<img src="https://i.imgur.com/nB8hHKA.png" width="400" alt="img">
+<img src="https://i.imgur.com/ZSiZ5QA.png" width="400" alt="img">
 
 #### [PixelSnap](https://getpixelsnap.com/) - Measure everything on screen
 
@@ -372,7 +384,8 @@ Here is how my library looks:
 
 - Found a [lot of great music](https://open.spotify.com/user/nikitavoloboev) with this application and the phenomenal [Alfred Workflow](http://alfred-spotify-mini-player.com/) makes using the application an absolute joy.
 - Quickly finding artists, songs I want to listen, instantly adding the song playing to my [Likes](https://open.spotify.com/user/nikitavoloboev/playlist/0ERn0U4qZIKC8Dy7RrMMsn?) playlist or any other playlist I want, seeing what other songs the artist has and more.
-  <img src="https://i.imgur.com/BYGYS9s.png" width="500" alt="img">
+
+<img src="https://i.imgur.com/tNThVG0.png" width="500" alt="img">
 
 ### Images
 
@@ -421,7 +434,14 @@ Here is how my library looks:
 
 - My favorite browser. It is incredibly fast, doesn't have the baggage of all the Google Chrome tracking and is native to macOS so it is extremely optimized and doesn't kill your battery.
 - One powerful plus that Chrome does have over safari is the amount of Chrome extensions that you can get. Fortunately the ones most needed for me do [exist on Safari](https://github.com/learn-anything/safari-extensions#readme).
-- My absolute favorite extension on Safari is [sVim](https://github.com/flipxfx/sVim) which gives me full keyboard control over my browser. [Here](https://gist.github.com/nikitavoloboev/c26e6a05e4e426e0542e55b7513b581c) is my config for it.
+
+##### Safari Extensions
+
+- [sVim](https://github.com/flipxfx/sVim) - Adds a custom layer of keybinds you can customize to personalize your browsing experience. [My config](https://gist.github.com/c26e6a05e4e426e0542e55b7513b581c).
+- [Wipr](https://itunes.apple.com/nl/app/wipr/id1320666476?l=en&mt=12) - Ad content blocker that uses [Safari native content blocking API's](https://developer.apple.com/library/content/documentation/Extensions/Conceptual/ContentBlockingRules/Introduction/Introduction.html).
+- [1Password](https://agilebits.com/onepassword/extensions) - [1Password](https://1password.com) is a phenomenal password manager, this extension just gives a seamless interaction of it with the browser.
+- [Cascadea](https://cascadea.app) - Custom styles extension. Use it to create dark themes for apps that don't have a dark mode option. Also allows importing of [Stylish themes](https://wiki.nikitavoloboev.xyz/web/browsers/stylish-themes).
+- [Dark Reader](https://darkreader.org/safari/) - On websites that don't have a nice Stylish theme, I like to use Dark Reader to turn all the websites I visit to dark mode. It works surprisingly well.
 
 #### [Google Chrome](https://www.google.com/chrome/)
 
@@ -495,32 +515,32 @@ I curate a list of [interesting CLI tools](https://github.com/learn-anything/com
 ## Preference Panes
 
 - [GPG Suite](https://gpgtools.org/) - Encrypt, decrypt, sign and verify files or messages.
-- [RCDefaultApp](http://www.rubicode.com/Software/RCDefaultApp/) - Set the default application used for various URL schemes, file extensions, file types, MIME types, and Uniform Type Identifiers.
+- [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps/releases/latest) - Set the default application used for various URL schemes, file extensions, file types, MIME types, and Uniform Type Identifiers.
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - Gives you access to additional preference settings Apple has built into macOS.
 
 I also [share screenshots of all the changes to System Preferences I have made](https://imgur.com/a/rlkOyUg).
 
 ## Desktop Screenshot
 
-![](https://i.imgur.com/AAYRWYO.jpg)
+![](https://i.imgur.com/uKsu94o.png)
 
 > Using [screenfetch](https://github.com/KittyKatt/screenFetch)
 
 ## Alfred launcher
 
-![](https://i.imgur.com/U9LFFkS.jpg)
+![](https://i.imgur.com/k2hrurX.png)
 
-> Searching [Alfred Learn Anything](https://github.com/nikitavoloboev/alfred-learn-anything#readme). Using [Night Blue theme](https://www.alfredapp.com/extras/theme/24fhXfBld7/).
+> Searching [Alfred Learn Anything](https://github.com/nikitavoloboev/alfred-learn-anything#readme). Using [Monokai Night theme](https://www.alfredapp.com/extras/theme/PQVZpeg4Zi/).
 
-## Night Blue themes
+## Monokai Night themes
 
-![](https://i.imgur.com/520F11f.png)
+![](https://i.imgur.com/PsZMur5.jpg)
 
-> Having a [unified theme](https://wiki.nikitavoloboev.xyz/design/night-blue-themes.html) across apps is amazing
+> Having a [unified theme](https://wiki.nikitavoloboev.xyz/design/monokai-night-themes) across apps is amazing
 
 ## Launchpad
 
-![](https://i.imgur.com/NRqFg6m.jpg)
+![](https://i.imgur.com/J8szqco.jpg)
 
 > I add a [small space in my Dock](https://www.imore.com/add-space-your-mac-dock) to separate apps I always have open with apps I seldom open
 
@@ -529,13 +549,13 @@ I also [share screenshots of all the changes to System Preferences I have made](
 If you found this interesting, I also have [similar repository](https://github.com/nikitavoloboev/my-ios#readme) going over what applications I use on iOS/WatchOS as well as how and why I use them.
 
 <a align="center" href="https://github.com/nikitavoloboev/my-ios#readme">
-    <img width="250" heigth="400" src="https://i.imgur.com/crA7nS3.jpg"></a>
+    <img width="250" heigth="400" src="https://i.imgur.com/tBswd0O.jpg"></a>
 
 <a align="center" href="https://github.com/nikitavoloboev/my-ios#readme">
-    <img width="250" heigth="400" src="https://i.imgur.com/qh3wFtP.jpg"></a>
+    <img width="250" heigth="400" src="https://i.imgur.com/C3f8tJo.jpg"></a>
 
 <a align="center" href="https://github.com/nikitavoloboev/my-ios#readme">
-    <img width="250" heigth="400" src="https://i.imgur.com/C5VsmQS.jpg"></a>
+    <img width="250" heigth="400" src="https://i.imgur.com/t2BqO17.jpg"></a>
 
 ## Similar Setups
 
@@ -543,6 +563,7 @@ Here you can find more setups by other people that you can take ideas and inspir
 
 - [Works for me](https://works-for-me.github.io/) - Collection of developer toolkits.
 - [Use This Interviews](https://usesthis.com) - What do people use to get stuff done?
+- [Omar Bahareth's my-mac-os](https://github.com/obahareth/my-mac-os) - Another my-mac-os.
 
 ## Related
 
